@@ -1,0 +1,49 @@
+/* Weather Form */
+.weather-form .input-group-text { background-color: transparent; }
+
+.weather-form input.form-control {
+    border-left: none;
+    border-right: none;
+    border-color: var(--borderColor);
+    padding: 24px 0;
+}
+
+.weather-form input.form-control:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.weather-form .input-group {
+    box-shadow: 0 2px 15px -5px var(--grey);
+    border-radius: .5rem;
+}
+
+.weather-form .input-group-text {
+    padding: 12px;
+    border-color: var(--borderColor);
+    border-left: 0;
+    border-right: 0;
+    border-radius: .5rem;
+}
+
+.weather-form .input-group>.input-group-prepend>.input-group-text {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+/* Search Button */
+.weather-form button {
+    padding: 0;
+    border: 0;
+    background: transparent;
+}
+
+.weather-form button:focus { outline: none; }
+
+/* Error Msg */
+.error-msg {
+    color: var(--red);
+    margin: 0;
+    margin-top: 5px;
+    font-size: 11px;
+}

@@ -1,0 +1,48 @@
+.weather-graph {
+    padding: 15px;
+    border-radius: .5rem;
+    margin-top: 15px;
+    box-shadow: 0 2px 15px -5px var(--grey);
+}
+
+.weather-graph h3 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.weather-graph h3 img { margin-left: 10px; }
+
+.weather-graph ul {
+    padding: 0;
+    margin: 15px 0;
+}
+
+.weather-graph li { list-style: none; }
+
+.weather-graph li div {
+    padding: 10px;
+    background: var(--bgColor);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.weather-graph h4 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 22px;
+}
+
+.weather-graph .sunrise-sunset h5 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+}
+
+.weather-graph .sunrise-sunset span {
+    color: var(--grey);
+    font-size: 14px;
+    line-height: 20px;
+}

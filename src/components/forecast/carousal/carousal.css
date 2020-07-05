@@ -1,0 +1,68 @@
+.weather-details h2 {
+    font-size: 14px;
+    line-height: 21px;
+    margin: 0;}
+
+.weather-details p {
+    margin: 0;
+    font-size: 12px;
+    line-height: 21px;
+}
+
+.weather-details img {
+    margin: 10px 0;
+}
+
+.weather-details .nav-link {
+    color: var(--black);
+    text-align: center;
+    padding: .5rem;
+    border: 2px solid transparent;
+}
+
+.forecast-container .react-multiple-carousel__arrow::before {
+    font-size: 12px;
+
+}
+.forecast-container .react-multiple-carousel__arrow {
+    background: rgba(0,0,0,0.4);
+    min-width: 20px;
+    min-height: 20px;
+}
+
+.forecast-container .react-multiple-carousel__arrow--right {
+    right: 0;
+}
+
+.forecast-container .react-multiple-carousel__arrow--left {
+    left: 0;
+}
+
+.weather-details .nav-link:hover {
+    background: #ffa5000d;
+    border: 2px solid var(--subtleBlue);
+}
+
+.sunrise-sunset {
+    position: relative;
+}
+
+.sunrise {
+    position: absolute;
+    top: 2px;
+    z-index: 99;
+}
+
+.sunset {
+    position: absolute;
+    top: 2px;
+    right: 0;
+    z-index: 99;
+}
+
+@media only screen and (max-width: 320px) {
+    .weather-details p {
+        font-size: 10px;
+        line-height: 18px;
+    }
+}
